@@ -1,0 +1,44 @@
+.get-notified-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23.9rem 0;
+}
+.notified__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 2.7rem;
+    line-height: 4rem;
+}
+.notified__form{
+    padding-top: 5.9rem;
+}
+.notified__input{
+    width: 54rem;
+    height: 6.3rem;
+    border: 1px solid $color-light-grey;
+    border-right-style: none;
+    background-color: #cccccc;
+    font: 400 2.3rem Roboto;
+
+    padding-left: 1.5rem;
+}
+.notified__button{
+    border: none;
+    font-size: 2.3rem;
+    line-height: 2.7rem;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    background: $color-orange;
+    color: $color-white;
+    border: 1px solid $color-orange;
+    border-radius: 0 0.5rem 0.5rem 0;
+    height: 6.3rem;
+    padding: 0 3.3rem;
+}
+.notified__button:hover{
+    background: $color-orange-light;
+}
+.notified__button:active{
+    background: $color-orange-dark;
+}

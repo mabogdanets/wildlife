@@ -1,0 +1,47 @@
+.survival{
+    max-width: 144rem;
+    margin: 0 auto;
+    background: url('../assets/main_fox.png') no-repeat center;
+    background-size: cover;
+    height: 78rem;
+    padding-top: 20.2rem;
+}
+.bacground-wrapper_survival{
+    background: #02160b;
+}
+.survival-wrapper{
+    display: flex;
+}
+.survival__title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+
+    letter-spacing: 2px;
+    color: $color-orange;
+    padding-bottom: 5.1rem;
+}
+.survival__description{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: $color-white;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    padding: 0 0 4.8rem 0;
+    width: 27.5rem;
+    
+    
+}
+.survival__button{
+    
+    background: $color-orange;
+    color: $color-white;
+    border-radius: 0.5rem;
+    padding: 1.7rem 4.35rem;
+}
+.survival__button:hover{
+    z-index: 1;
+    background: $color-orange-light;
+}
+.survival__button:active{
+    background: $color-orange-dark;
+}

@@ -1,0 +1,80 @@
+.header{
+    max-width: 144rem;
+    width: 100vw;
+    position: absolute;
+    padding-top: 1.9rem;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: 0 auto;
+}
+
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+}
+.navigation{
+    display: flex;
+    position: relative;
+    left: 2.9rem;
+
+}
+.navigation__item{
+    padding: 0 3.1rem;
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: normal;
+    font-size: 2.3rem;
+    line-height: 6rem;
+     
+}
+
+.navigation__item_search{
+    position: relative;
+    top: 0.6rem;
+}
+.navigation__link{
+    color: $color-white;
+    font-style: normal;
+}
+.navigation__button{
+    width: 12rem;
+    height: 5rem;
+    background: none;
+    color:$color-white;
+    border: 0.2rem solid $color-orange;
+    border-radius: 0.5rem;
+}
+.navigation__button:hover{
+    background: $color-orange;
+}
+.navigation__button:active{
+    background: $color-orange-dark;
+}
+.logo__title{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 3.2rem;
+    line-height: 6rem;
+    text-transform: uppercase;
+    color: $color-white;
+    padding-left: 1.5rem;
+}
+.logo__icon{
+    background-image: url('../assets/icon_horns.svg');
+    display: inline-block;
+    width: 7rem;
+    height: 6rem;
+}
+.icon-search{
+    background-image: url('../assets/icon_search.svg');
+    display: inline-block;
+    width: 3.2rem;
+    height: 3.2rem;
+}

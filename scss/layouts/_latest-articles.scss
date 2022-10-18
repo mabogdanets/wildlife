@@ -1,0 +1,26 @@
+.articles{
+    max-width: 144rem;
+    margin: 0 auto;
+} 
+.bacground-wrapper_articles{
+    background:#cccccc;
+}
+.latest-articles-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12rem 0;
+}
+.latest-articles__title{
+    color: $color-dark-grey;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+.latest-articles__subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: $color-light-grey;
+    padding-top: 2rem;
+}
